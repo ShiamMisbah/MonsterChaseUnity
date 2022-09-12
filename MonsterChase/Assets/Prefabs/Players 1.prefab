@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 1360605581351594854}
   - component: {fileID: 2841238660655969444}
   - component: {fileID: 2655735968472678356}
+  - component: {fileID: 6476593811418829024}
   m_Layer: 0
   m_Name: Players 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360605581351594855}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13981009, y: 0.07369813, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.002548143, w: 0.9999968}
+  m_LocalPosition: {x: -3.438409, y: -2.8695343, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.292}
 --- !u!212 &1360605581351594853
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1207023069
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -806235081, guid: 098ee1f27411dc9428a6f3c25ede0ada, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -97,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 1360605581351594855}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 43788c6e79b232e4db4660b733f5c6db, type: 2}
+  m_Controller: {fileID: 9100000, guid: 15bcf36eaf9a8ea4d9d273d3c0cd4bd3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -148,9 +149,23 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6476593811418829024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360605581351594855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601a66cfa228a2346a51c5204f37c44d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveForce: 10
+  jumpForce: 11
