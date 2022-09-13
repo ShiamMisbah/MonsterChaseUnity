@@ -36,10 +36,11 @@ public class Player : MonoBehaviour
     {
         PlayerMoveKeyboard();
         AnimatePlayer();
+        PlayerJump();
     }
 
     private void FixedUpdate() {
-        PlayerJump();
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
