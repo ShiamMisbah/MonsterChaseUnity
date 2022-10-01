@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2001507456}
   - component: {fileID: 1039811990512641863}
   - component: {fileID: -7372965379184491403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GZombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}

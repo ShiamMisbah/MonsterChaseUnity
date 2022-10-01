@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4614410213820933320}
   - component: {fileID: 7503290680388631720}
   - component: {fileID: 1462676785709641388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RZombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
